@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Sidebar from "./components/Sidebar/page";
-import Dashboard from "./components/Dashboard/page";
+import Dashboard from "./components/Dashboard/All";
+import WelcomeHeader from "./components/Dashboard/WelcomeHeader";
+
 
 export default function Home() {
   return (
-    <div className='flex bg-slate-100'>
-      <Sidebar />
-      <Dashboard/>
+    <div>
+          <WelcomeHeader/>
     </div>
 
   );
